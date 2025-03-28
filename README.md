@@ -1,5 +1,5 @@
 # Gestão de e-commerce
-##Visão Geral
+## Visão Geral
 Este projeto tem como objetivo desenvolver um sistema para cadastro de clientes (PJ e PF), formas de pagamento e status de entrega com código de rastreamento. 
 
 ##Modelagem do Banco de Dados
