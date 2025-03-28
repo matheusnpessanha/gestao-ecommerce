@@ -2,10 +2,10 @@
 ## Visão Geral
 Este projeto tem como objetivo desenvolver um sistema para cadastro de clientes (PJ e PF), formas de pagamento e status de entrega com código de rastreamento. 
 
-##Modelagem do Banco de Dados
+## Modelagem do Banco de Dados
 A modelagem do banco de dados segue um esquema que inclui as seguintes entidades:
 
-###1. Cliente
+### 1. Cliente
 
   id (PK)
   nome (String)
@@ -16,14 +16,14 @@ A modelagem do banco de dados segue um esquema que inclui as seguintes entidades
   cnpj (String, exclusivo para PJ)
   endereco (String)
 
-###2. Pagamento
+### 2. Pagamento
 
   id (PK)
   cliente_id (FK -> Cliente)
   tipo_pagamento (Enum: Cartão, Boleto, Pix)
   dados_pagamento (JSON ou String, conforme necessidade)
 
-###3. Entrega
+### 3. Entrega
 
   id (PK)
   cliente_id (FK -> Cliente)
