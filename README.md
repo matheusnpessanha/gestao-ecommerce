@@ -1,4 +1,4 @@
-### Gestão de e-commerce
+# Gestão de e-commerce
 Visão Geral
 Este projeto tem como objetivo desenvolver um sistema para cadastro de clientes (PJ e PF), formas de pagamento e status de entrega com código de rastreamento. O sistema será baseado em Django para o backend e poderá ter um frontend em Next.js.
 
